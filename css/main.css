@@ -36,12 +36,13 @@ body {
   padding-top: .5em;
   padding-bottom: .2em;
   font-family: Pacifico, cursive;
+  margin: 0;
 }
 
 .est {
   text-align: center;
   padding-top: .3rem;
-  padding-bottom: 1.3em;
+  padding-bottom: .3em;
 }
 
 .nav {
@@ -54,6 +55,8 @@ body {
   border-top: 2px solid #e7e7e7;
   border-bottom: 2px solid #e7e7e7;
   background-color: #f3f3f3;
+  margin-bottom: 0;
+  padding: 1em;
 }
 
 .navcard {
@@ -67,7 +70,7 @@ body {
   color: #666;
   text-align: center;
   font-size: .8rem;
-  padding: .8em 1em;
+  padding: .75em 1em;
   text-decoration: none;
 }
 
@@ -175,6 +178,7 @@ body {
   display: inline-block;
   width: 45%;
   padding: .2em;
+  margin: .5em;
 }
 
 .treatsimages {
@@ -208,6 +212,7 @@ body {
 .meetdianetext {
   max-width: 95%;
   padding: 1em;
+  margin: 0;
 }
 
 /*  ask our friends / testimonials  */
@@ -308,6 +313,7 @@ body {
 .footertext {
   text-align: center;
   padding: 1em;
+  margin-bottom: 0;
 }
 
 .smtitle {
