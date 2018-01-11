@@ -84,8 +84,7 @@ header {
 }
 
 .WelcomeHomeText {
-  max-width: 90%;
- padding: .5em;
+  padding: .5em;
 }
 
 .WelcomeHomediv {
@@ -171,6 +170,7 @@ header {
   width: 45%;
   padding: .2em;
 }
+
 .TreatsImages {
   display: inline-block;
   vertical-align: middle;
@@ -479,6 +479,10 @@ header {
 }
 /*Social Media*/
 
+.SM, .SM1, .SM2, .SM3, .SM4, .SM5 {
+  height: 6em;
+}
+
 /*Footer*/
 
 }
@@ -491,12 +495,67 @@ header {
   }
 
 /* Header and Navigation*/
+.GDDTitle {
+ font-size: 3.5em;
+}
+
 /*Introduction*/
+.WelcomeHomeTitle {
+  padding: .5em 0 .5em 0;
+}
+
+.WelcomeHome {
+  padding: .25em .25em .5em .25em;
+}
 /*Locations*/
+
+.LocationCards {
+  max-width: 49%;
+  float: left;
+  overflow: hidden;
+  margin: 2.5em 0 1em 0;
+}
+
+.Location1Image {
+  max-width: 100%;
+}
+
+.Location2Image {
+  max-width: 100%;
+}
+
+.LocationTitle {
+  padding-bottom: 0;
+}
 /*Treats*/
+.TreatsTitle {
+  padding-bottom: .5em;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.TreatsImages {
+  margin: 1em;
+}
+
+.TreatsCards {
+  max-width: 29%;
+}
 /*Meet Diane*/
+
+.GmaDianeImg {
+ max-width: 35%;
+}
+
+.MeetDianeText {
+  max-width: 64%;
+}
 /*Testimonials*/
+
+.Friend1, .Friend2, .Friend3, .Friend4 {
+  max-width: 24%;
+}
 /*Social Media*/
+
 /*Footer*/
 
 }
