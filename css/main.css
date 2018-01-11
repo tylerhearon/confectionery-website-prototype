@@ -6,21 +6,20 @@
 
 html {
   box-sizing: border-box;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-
+  text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
   margin: 0;
   padding: 0;
   font-size: 100%;
 }
 
-/* header and navigation */
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/*  header and navigation  */
 
 header {
   background-color: #efefef;
@@ -44,6 +43,7 @@ header {
 .nav {
   display: block;
 }
+
 .navlist {
     list-style-type: none;
     overflow: hidden;
@@ -67,9 +67,9 @@ header {
     text-decoration: none;
 }
 
-/* ------------- page elements ----------------- */
+/*  ------------- page elements -----------------  */
 
-/*  shop introduction */
+/*   shop introduction  */
 
 .welcomehome {
   background-color: #f6f6f6;
@@ -104,7 +104,7 @@ header {
   display: inline-block;
 }
 
-/*  locations  */
+/*   locations   */
 
 .locationtitle {
   display: block;
@@ -143,10 +143,7 @@ header {
   font-size: .9rem;
 }
 
-/* treats  */
-
-.treats {
-}
+/*  treats   */
 
 .treatstitle {
   display: block;
@@ -183,7 +180,7 @@ header {
   padding: 1em;
 }
 
-/* meet diane */
+/*  meet diane  */
 
 .meetdianetitle {
   display: block;
@@ -205,7 +202,7 @@ header {
   padding: 1em;
 }
 
-/* ask our friends / testimonials */
+/*  ask our friends / testimonials  */
 
 .askourfriendstitle {
   display: block;
@@ -221,35 +218,35 @@ header {
 }
 
 .friend1 {
-  display:inline-block;
+  display: inline-block;
   max-width: 48%;
   padding: .4em;
-  margin: 1em 0 1em 0;
+  margin: 1em 0;
   font-size: .8rem;
 }
 
 .friend2 {
-  display:inline-block;
+  display: inline-block;
   max-width: 48%;
   padding: .4em;
-  margin: 1em 0 1em 0;
+  margin: 1em 0;
   font-size: .8rem;
 }
 
 .friend3 {
-  display:inline-block;
+  display: inline-block;
   max-width: 48%;
   padding: .4em;
   font-size: .8rem;
-  margin: 1em 0 0 0;
+  margin: 1em 0 0;
 }
 
 .friend4 {
-  display:inline-block;
+  display: inline-block;
   max-width: 48%;
   padding: .4em;
   font-size: .8rem;
-  margin: 1em 0 0 0;
+  margin: 1em 0 0;
 }
 
 .friend1img {
@@ -272,11 +269,11 @@ header {
   margin-top: .5em;
 }
 
-/* social media */
+/*  social media  */
 
 .smcards {
   padding: .2em;
-  margin: 1em 0 2em 0;
+  margin: 1em 0 2em;
   border-top: 1px solid #efefef;
   text-align: center;
 }
@@ -301,7 +298,7 @@ header {
   max-width: 18.2%;
 }
 
-/* footer */
+/*  footer  */
 
 .footer {
   background-color: #efefef;
@@ -309,18 +306,18 @@ header {
 
 .footertext {
   text-align: center;
-  padding: 1em 1em;
+  padding: 1em;
 }
 
 .smtitle {
   display: block;
   text-align: center;
-  margin: .5em .5em;
+  margin: .5em;
   padding: .8em;
 }
 
 
-/* ------------- media queries ----------------- */
+/*  ------------- media queries -----------------  */
 
 @media only screen and (min-width: 25em) {
 
@@ -329,7 +326,7 @@ header {
     line-height: 1.3;
   }
 
-/* header and navigation*/
+/*  header and navigation */
 
 .gddtitle {
   font-size: 2.25rem;
@@ -339,7 +336,8 @@ header {
   height: 3em;
 }
 
-/*introduction*/
+/* introduction */
+
 .welcomehometitle {
   font-size: 1.5rem;
 }
@@ -347,7 +345,8 @@ header {
 .welcomehometext {
   max-width: 100%;
 }
-/*locations*/
+
+/* locations */
 
 .locationtitle {
   font-size: 1.5rem;
@@ -357,48 +356,53 @@ header {
   font-size: 1rem;
 }
 
-.location2text{
+.location2text {
   font-size: 1rem;
 }
-/*treats*/
+
+/* treats */
 
 .treatstitle {
   font-size: 1.5rem;
 }
-/*meet diane*/
+
+/* meet diane */
 
 .meetdianetitle {
   font-size: 1.5rem;
 }
 
-.meetdianetext{
+.meetdianetext {
   max-width: 100%;
 }
-/*testimonials*/
+
+/* testimonials */
 
 .askourfriendstitle {
   font-size: 1.5rem;
 }
 
-.friend1img{
-  max-width: 50%;
-}
-.friend2img{
-  max-width: 50%;
-}
-.friend3img{
-  max-width: 50%;
-}
-.friend4img{
+.friend1img {
   max-width: 50%;
 }
 
-/*social media*/
+.friend2img {
+  max-width: 50%;
+}
+
+.friend3img {
+  max-width: 50%;
+}
+
+.friend4img {
+  max-width: 50%;
+}
+
+/* social media */
 
 .smtitle {
   font-size: 1.5rem;
 }
-/*footer*/
 
 }
 
@@ -409,7 +413,7 @@ header {
     line-height: 1.4;
   }
 
-/* header and navigation*/
+/*  header and navigation */
 
 .gddtitle {
   font-size: 2.5rem;
@@ -419,8 +423,10 @@ header {
   font-size: 1rem;
   height: 3em;
 }
-/*introduction*/
-/*locations*/
+
+/* introduction */
+
+/* locations */
 
 .location1 {
   position: relative;
@@ -451,12 +457,15 @@ header {
   padding: .5em;
   margin: 0 .5em 0 0;
 }
-/*treats*/
-/*meet diane*/
+
+/* treats */
+
+/* meet diane */
 
 .meetdianephoto {
   position: relative;
 }
+
 .gmadianeimg {
   display: inline-block;
   max-width: 49%;
@@ -469,7 +478,8 @@ header {
   padding: .5em;
   font-size: 1.2rem;
 }
-/*testimonials*/
+
+/* testimonials */
 
 .testimonials {
   font-size: 1.2rem;
@@ -478,13 +488,14 @@ header {
 .friendtext {
   font-size: 1rem;
 }
-/*social media*/
+
+/* social media */
 
 .sm, .sm1, .sm2, .sm3, .sm4, .sm5 {
   height: 6em;
 }
 
-/*footer*/
+/* footer */
 
 }
 
@@ -495,26 +506,29 @@ header {
     line-height: 1.5;
   }
 
-/* header and navigation*/
+/*  header and navigation */
+
 .gddtitle {
  font-size: 3.5em;
 }
 
-/*introduction*/
+/* introduction */
+
 .welcomehometitle {
-  padding: .5em 0 .5em 0;
+  padding: .5em 0;
 }
 
 .welcomehome {
-  padding: .25em .25em .5em .25em;
+  padding: .25em;
 }
-/*locations*/
+
+/* locations */
 
 .locationcards {
   max-width: 49%;
   float: left;
   overflow: hidden;
-  margin: 2.5em 0 1em 0;
+  margin: 2.5em 0 1em;
 }
 
 .location1image {
@@ -528,7 +542,9 @@ header {
 .locationtitle {
   padding-bottom: 0;
 }
-/*treats*/
+
+/* treats */
+
 .treatstitle {
   padding-bottom: .5em;
   border-bottom: 1px solid #c9c9c9;
@@ -541,7 +557,8 @@ header {
 .treatscards {
   max-width: 29%;
 }
-/*meet diane*/
+
+/* meet diane */
 
 .gmadianeimg {
  max-width: 35%;
@@ -550,14 +567,16 @@ header {
 .meetdianetext {
   max-width: 64%;
 }
-/*testimonials*/
+
+/* testimonials */
 
 .friend1, .friend2, .friend3, .friend4 {
   max-width: 24%;
 }
-/*social media*/
 
-/*footer*/
+/* social media */
+
+/* footer */
 
 }
 
@@ -567,13 +586,20 @@ header {
     font-size: 130%;
   }
 
-/* header and navigation*/
-/*introduction*/
-/*locations*/
-/*treats*/
-/*meet diane*/
-/*testimonials*/
-/*social media*/
-/*footer*/
+/*  header and navigation */
+
+/* introduction */
+
+/* locations */
+
+/* treats */
+
+/* meet diane */
+
+/* testimonials */
+
+/* social media */
+
+/* footer */
 
 }
