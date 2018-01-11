@@ -212,6 +212,10 @@ body {
 
 /*  ask our friends / testimonials  */
 
+.friendcards {
+  text-align: center;
+}
+
 .askourfriendstitle {
   display: block;
   text-align: center;
@@ -257,24 +261,13 @@ body {
   margin: 1em 0 0;
 }
 
-.friend1img {
-  max-width: 30%;
-}
-
-.friend2img {
-  max-width: 30%;
-}
-
-.friend3img {
-  max-width: 30%;
-}
-
-.friend4img {
+.friend1img, .friend2img, .friend3img, .friend4img {
   max-width: 30%;
 }
 
 .friendtext {
   margin-top: .5em;
+  text-align: left;
 }
 
 /*  social media  */
@@ -517,6 +510,11 @@ body {
 
   .gddtitle {
     font-size: 3.5em;
+    margin: 0;
+  }
+
+  .navlist {
+    margin-bottom: 0;
   }
 
   /* introduction */
@@ -562,13 +560,13 @@ body {
   }
 
   .treatscards {
-    max-width: 29%;
+    max-width: 20%;
   }
 
   /* meet diane */
 
   .gmadianeimg {
-    max-width: 35%;
+    max-width: 25%;
   }
 
   .meetdianetext {
@@ -584,6 +582,10 @@ body {
   /* social media */
 
   /* footer */
+
+  .footertext {
+    margin: 0;
+  }
 
 }
 
