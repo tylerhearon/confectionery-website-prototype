@@ -45,26 +45,26 @@ header {
 }
 
 .navlist {
-    list-style-type: none;
-    overflow: hidden;
-    border-top: 2px solid #e7e7e7;
-    border-bottom: 2px solid #e7e7e7;
-    background-color: #f3f3f3;
+  list-style-type: none;
+  overflow: hidden;
+  border-top: 2px solid #e7e7e7;
+  border-bottom: 2px solid #e7e7e7;
+  background-color: #f3f3f3;
 }
 
 .navcard {
-    float: left;
-    text-align: center;
-    width: 25%;
+  float: left;
+  text-align: center;
+  width: 25%;
 }
 
 .navlink {
-    display: block;
-    color: #666;
-    text-align: center;
-    font-size: .8rem;
-    padding: .8em 1em;
-    text-decoration: none;
+  display: block;
+  color: #666;
+  text-align: center;
+  font-size: .8rem;
+  padding: .8em 1em;
+  text-decoration: none;
 }
 
 /*  ------------- page elements -----------------  */
@@ -316,7 +316,6 @@ header {
   padding: .8em;
 }
 
-
 /*  ------------- media queries -----------------  */
 
 @media only screen and (min-width: 25em) {
@@ -326,83 +325,83 @@ header {
     line-height: 1.3;
   }
 
-/*  header and navigation */
+  /*  header and navigation */
 
-.gddtitle {
-  font-size: 2.25rem;
-}
+  .gddtitle {
+    font-size: 2.25rem;
+  }
 
-.navlink {
-  height: 3em;
-}
+  .navlink {
+    height: 3em;
+  }
 
-/* introduction */
+  /* introduction */
 
-.welcomehometitle {
-  font-size: 1.5rem;
-}
+  .welcomehometitle {
+    font-size: 1.5rem;
+  }
 
-.welcomehometext {
-  max-width: 100%;
-}
+  .welcomehometext {
+    max-width: 100%;
+  }
 
-/* locations */
+  /* locations */
 
-.locationtitle {
-  font-size: 1.5rem;
-}
+  .locationtitle {
+    font-size: 1.5rem;
+  }
 
-.location1text {
-  font-size: 1rem;
-}
+  .location1text {
+    font-size: 1rem;
+  }
 
-.location2text {
-  font-size: 1rem;
-}
+  .location2text {
+    font-size: 1rem;
+  }
 
-/* treats */
+  /* treats */
 
-.treatstitle {
-  font-size: 1.5rem;
-}
+  .treatstitle {
+    font-size: 1.5rem;
+  }
 
-/* meet diane */
+  /* meet diane */
 
-.meetdianetitle {
-  font-size: 1.5rem;
-}
+  .meetdianetitle {
+    font-size: 1.5rem;
+  }
 
-.meetdianetext {
-  max-width: 100%;
-}
+  .meetdianetext {
+    max-width: 100%;
+  }
 
-/* testimonials */
+  /* testimonials */
 
-.askourfriendstitle {
-  font-size: 1.5rem;
-}
+  .askourfriendstitle {
+    font-size: 1.5rem;
+  }
 
-.friend1img {
-  max-width: 50%;
-}
+  .friend1img {
+    max-width: 50%;
+  }
 
-.friend2img {
-  max-width: 50%;
-}
+  .friend2img {
+    max-width: 50%;
+  }
 
-.friend3img {
-  max-width: 50%;
-}
+  .friend3img {
+    max-width: 50%;
+  }
 
-.friend4img {
-  max-width: 50%;
-}
+  .friend4img {
+    max-width: 50%;
+  }
 
-/* social media */
+  /* social media */
 
-.smtitle {
-  font-size: 1.5rem;
-}
+  .smtitle {
+    font-size: 1.5rem;
+  }
 
 }
 
@@ -413,89 +412,89 @@ header {
     line-height: 1.4;
   }
 
-/*  header and navigation */
+  /*  header and navigation */
 
-.gddtitle {
-  font-size: 2.5rem;
-}
+  .gddtitle {
+    font-size: 2.5rem;
+  }
 
-.navlink {
-  font-size: 1rem;
-  height: 3em;
-}
+  .navlink {
+    font-size: 1rem;
+    height: 3em;
+  }
 
-/* introduction */
+  /* introduction */
 
-/* locations */
+  /* locations */
 
-.location1 {
-  position: relative;
-}
+  .location1 {
+    position: relative;
+  }
 
-.location1text {
-  position: absolute;
-  bottom: 1.5em;
-  right: 1.5em;
-  border: 1px solid #c9c9c9;
-  border-radius: 6px;
-  background-color: rgba(179, 179, 179, .5);
-  padding: .5em;
-  margin: 0 .5em 0 0;
-}
+  .location1text {
+    position: absolute;
+    bottom: 1.5em;
+    right: 1.5em;
+    border: 1px solid #c9c9c9;
+    border-radius: 6px;
+    background-color: rgba(179, 179, 179, .5);
+    padding: .5em;
+    margin: 0 .5em 0 0;
+  }
 
-.location2 {
-  position: relative;
-}
+  .location2 {
+    position: relative;
+  }
 
-.location2text {
-  position: absolute;
-  bottom: 1.5em;
-  right: 1.5em;
-  border: 1px solid #c9c9c9;
-  border-radius: 6px;
-  background-color: rgba(179, 179, 179, .5);
-  padding: .5em;
-  margin: 0 .5em 0 0;
-}
+  .location2text {
+    position: absolute;
+    bottom: 1.5em;
+    right: 1.5em;
+    border: 1px solid #c9c9c9;
+    border-radius: 6px;
+    background-color: rgba(179, 179, 179, .5);
+    padding: .5em;
+    margin: 0 .5em 0 0;
+  }
 
-/* treats */
+  /* treats */
 
-/* meet diane */
+  /* meet diane */
 
-.meetdianephoto {
-  position: relative;
-}
+  .meetdianephoto {
+    position: relative;
+  }
 
-.gmadianeimg {
-  display: inline-block;
-  max-width: 49%;
-}
+  .gmadianeimg {
+    display: inline-block;
+    max-width: 49%;
+  }
 
-.meetdianetext {
-  display: inline-block;
-  max-width: 49%;
-  position: absolute;
-  padding: .5em;
-  font-size: 1.2rem;
-}
+  .meetdianetext {
+    display: inline-block;
+    max-width: 49%;
+    position: absolute;
+    padding: .5em;
+    font-size: 1.2rem;
+  }
 
-/* testimonials */
+  /* testimonials */
 
-.testimonials {
-  font-size: 1.2rem;
-}
+  .testimonials {
+    font-size: 1.2rem;
+  }
 
-.friendtext {
-  font-size: 1rem;
-}
+  .friendtext {
+    font-size: 1rem;
+  }
 
-/* social media */
+  /* social media */
 
-.sm, .sm1, .sm2, .sm3, .sm4, .sm5 {
-  height: 6em;
-}
+  .sm, .sm1, .sm2, .sm3, .sm4, .sm5 {
+    height: 6em;
+  }
 
-/* footer */
+  /* footer */
 
 }
 
@@ -506,77 +505,77 @@ header {
     line-height: 1.5;
   }
 
-/*  header and navigation */
+  /*  header and navigation */
 
-.gddtitle {
- font-size: 3.5em;
-}
+  .gddtitle {
+    font-size: 3.5em;
+  }
 
-/* introduction */
+  /* introduction */
 
-.welcomehometitle {
-  padding: .5em 0;
-}
+  .welcomehometitle {
+    padding: .5em 0;
+  }
 
-.welcomehome {
-  padding: .25em;
-}
+  .welcomehome {
+    padding: .25em;
+  }
 
-/* locations */
+  /* locations */
 
-.locationcards {
-  max-width: 49%;
-  float: left;
-  overflow: hidden;
-  margin: 2.5em 0 1em;
-}
+  .locationcards {
+    max-width: 49%;
+    float: left;
+    overflow: hidden;
+    margin: 2.5em 0 1em;
+  }
 
-.location1image {
-  max-width: 100%;
-}
+  .location1image {
+    max-width: 100%;
+  }
 
-.location2image {
-  max-width: 100%;
-}
+  .location2image {
+    max-width: 100%;
+  }
 
-.locationtitle {
-  padding-bottom: 0;
-}
+  .locationtitle {
+    padding-bottom: 0;
+  }
 
-/* treats */
+  /* treats */
 
-.treatstitle {
-  padding-bottom: .5em;
-  border-bottom: 1px solid #c9c9c9;
-}
+  .treatstitle {
+    padding-bottom: .5em;
+    border-bottom: 1px solid #c9c9c9;
+  }
 
-.treatsimages {
-  margin: 1em;
-}
+  .treatsimages {
+    margin: 1em;
+  }
 
-.treatscards {
-  max-width: 29%;
-}
+  .treatscards {
+    max-width: 29%;
+  }
 
-/* meet diane */
+  /* meet diane */
 
-.gmadianeimg {
- max-width: 35%;
-}
+  .gmadianeimg {
+    max-width: 35%;
+  }
 
-.meetdianetext {
-  max-width: 64%;
-}
+  .meetdianetext {
+    max-width: 64%;
+  }
 
-/* testimonials */
+  /* testimonials */
 
-.friend1, .friend2, .friend3, .friend4 {
-  max-width: 24%;
-}
+  .friend1, .friend2, .friend3, .friend4 {
+    max-width: 24%;
+  }
 
-/* social media */
+  /* social media */
 
-/* footer */
+  /* footer */
 
 }
 
@@ -586,20 +585,20 @@ header {
     font-size: 130%;
   }
 
-/*  header and navigation */
+  /*  header and navigation */
 
-/* introduction */
+  /* introduction */
 
-/* locations */
+  /* locations */
 
-/* treats */
+  /* treats */
 
-/* meet diane */
+  /* meet diane */
 
-/* testimonials */
+  /* testimonials */
 
-/* social media */
+  /* social media */
 
-/* footer */
+  /* footer */
 
 }
