@@ -20,14 +20,14 @@ html {
   font-size: 100%;
 }
 
-/* Header and Navigation */
+/* header and navigation */
 
 header {
   background-color: #efefef;
   display: block;
 }
 
-.GDDTitle {
+.gddtitle {
   text-align: center;
   font-size: 2rem;
   padding-top: .5em;
@@ -40,10 +40,10 @@ header {
   padding-bottom: 1.3em;
 }
 
-.Nav {
+.nav {
   display: block;
 }
-.NavList {
+.navlist {
     list-style-type: none;
     overflow: hidden;
     border-top: 2px solid #e7e7e7;
@@ -51,13 +51,13 @@ header {
     background-color: #f3f3f3;
 }
 
-.NavCard {
+.navcard {
     float: left;
     text-align: center;
     width: 25%;
 }
 
-.NavLink {
+.navlink {
     display: block;
     color: #666;
     text-align: center;
@@ -66,32 +66,32 @@ header {
     text-decoration: none;
 }
 
-/* ------------- Page Elements ----------------- */
+/* ------------- page elements ----------------- */
 
-/*  Shop Introduction */
+/*  shop introduction */
 
-.WelcomeHome {
+.welcomehome {
   background-color: #f6f6f6;
   padding: 1em;
   border-bottom: 1px solid #e7e7e7;
 }
 
-.WelcomeHomeTitle {
+.welcomehometitle {
   display: block;
   text-align: center;
   font-size: 1.2rem;
   padding: .8em;
 }
 
-.WelcomeHomeText {
+.welcomehometext {
   padding: .5em;
 }
 
-.WelcomeHomediv {
+.welcomehomediv {
   text-align: center;
 }
 
-.WelcomeHomebtn {
+.welcomehomebtn {
   background-color: #d0d0d0;
   margin: 1em;
   border: 1.2px solid #c9c9c9;
@@ -103,9 +103,9 @@ header {
   display: inline-block;
 }
 
-/*  Locations  */
+/*  locations  */
 
-.LocationTitle {
+.locationtitle {
   display: block;
   text-align: center;
   margin-top: 1em;
@@ -114,40 +114,40 @@ header {
   padding: .8em;
 }
 
-.LocationCards {
+.locationcards {
   text-align: center;
 }
 
-.Location1Image {
+.location1image {
   display: inline-block;
   padding: .5em;
   max-width: 95%;
 }
 
-.Location2Image {
+.location2image {
   display: inline-block;
   padding: .5em;
   max-width: 95%;
 }
 
-.Location1Text {
+.location1text {
   text-align: center;
   padding: 1em;
   font-size: .9rem;
 }
 
-.Location2Text {
+.location2text {
   text-align: center;
   padding: 1em;
   font-size: .9rem;
 }
 
-/* Treats  */
+/* treats  */
 
-.Treats {
+.treats {
 }
 
-.TreatsTitle {
+.treatstitle {
   display: block;
   text-align: center;
   margin-top: 1.3rem;
@@ -156,35 +156,35 @@ header {
   padding: .8em;
 }
 
-.TreatIndivTitle {
+.treatindivtitle {
   text-align: center;
   font-size: .8rem;
 }
 
-.TreatsDiv {
+.treatsdiv {
   text-align: center;
 }
 
-.TreatsCards {
+.treatscards {
   display: inline-block;
   width: 45%;
   padding: .2em;
 }
 
-.TreatsImages {
+.treatsimages {
   display: inline-block;
   vertical-align: middle;
   width: 98%;
   margin: .5em;
 }
 
-.TreatsText {
+.treatstext {
   padding: 1em;
 }
 
-/* Meet Diane */
+/* meet diane */
 
-.MeetDianeTitle {
+.meetdianetitle {
   display: block;
   text-align: center;
   margin-top: 1em;
@@ -193,20 +193,20 @@ header {
   padding: .8em;
 }
 
-.GmaDianeImg {
+.gmadianeimg {
   display: inline-block;
   max-width: 60%;
   padding: 1em;
 }
 
-.MeetDianeText {
+.meetdianetext {
   max-width: 95%;
   padding: 1em;
 }
 
-/* Ask our Friends / Testimonials */
+/* ask our friends / testimonials */
 
-.AskOurFriendsTitle {
+.askourfriendstitle {
   display: block;
   text-align: center;
   margin-top: 1em;
@@ -215,11 +215,11 @@ header {
   padding: .8em;
 }
 
-.Testimonials {
+.testimonials {
   font-size: .8rem;
 }
 
-.Friend1 {
+.friend1 {
   display:inline-block;
   max-width: 48%;
   padding: .4em;
@@ -227,7 +227,7 @@ header {
   font-size: .8rem;
 }
 
-.Friend2 {
+.friend2 {
   display:inline-block;
   max-width: 48%;
   padding: .4em;
@@ -235,7 +235,7 @@ header {
   font-size: .8rem;
 }
 
-.Friend3 {
+.friend3 {
   display:inline-block;
   max-width: 48%;
   padding: .4em;
@@ -243,7 +243,7 @@ header {
   margin: 1em 0 0 0;
 }
 
-.Friend4 {
+.friend4 {
   display:inline-block;
   max-width: 48%;
   padding: .4em;
@@ -251,67 +251,67 @@ header {
   margin: 1em 0 0 0;
 }
 
-.Friend1Img {
+.friend1img {
   max-width: 30%;
 }
 
-.Friend2Img {
+.friend2img {
   max-width: 30%;
 }
 
-.Friend3Img {
+.friend3img {
   max-width: 30%;
 }
 
-.Friend4Img {
+.friend4img {
   max-width: 30%;
 }
 
-.FriendText {
+.friendtext {
   margin-top: .5em;
 }
 
-/* Social Media */
+/* social media */
 
-.SMCards {
+.smcards {
   padding: .2em;
   margin: 1em 0 2em 0;
   border-top: 1px solid #efefef;
   text-align: center;
 }
 
-.SM1 {
+.sm1 {
   max-width: 18.2%;
 }
 
-.SM2 {
+.sm2 {
   max-width: 18.2%;
 }
 
-.SM3 {
+.sm3 {
   max-width: 18.2%;
 }
 
-.SM4 {
+.sm4 {
   max-width: 18.2%;
 }
 
-.SM5 {
+.sm5 {
   max-width: 18.2%;
 }
 
-/* Footer */
+/* footer */
 
-.Footer {
+.footer {
   background-color: #efefef;
 }
 
-.FooterText {
+.footertext {
   text-align: center;
   padding: 1em 1em;
 }
 
-.SMTitle {
+.smtitle {
   display: block;
   text-align: center;
   margin: .5em .5em;
@@ -319,7 +319,7 @@ header {
 }
 
 
-/* ------------- Media Queries ----------------- */
+/* ------------- media queries ----------------- */
 
 @media only screen and (min-width: 25em) {
 
@@ -328,76 +328,76 @@ header {
     line-height: 1.3;
   }
 
-/* Header and Navigation*/
+/* header and navigation*/
 
-.GDDTitle {
+.gddtitle {
   font-size: 2.25rem;
 }
 
-.NavLink {
+.navlink {
   height: 3em;
 }
 
-/*Introduction*/
-.WelcomeHomeTitle {
+/*introduction*/
+.welcomehometitle {
   font-size: 1.5rem;
 }
 
-.WelcomeHomeText {
+.welcomehometext {
   max-width: 100%;
 }
-/*Locations*/
+/*locations*/
 
-.LocationTitle {
+.locationtitle {
   font-size: 1.5rem;
 }
 
-.Location1Text {
+.location1text {
   font-size: 1rem;
 }
 
-.Location2Text{
+.location2text{
   font-size: 1rem;
 }
-/*Treats*/
+/*treats*/
 
-.TreatsTitle {
+.treatstitle {
   font-size: 1.5rem;
 }
-/*Meet Diane*/
+/*meet diane*/
 
-.MeetDianeTitle {
+.meetdianetitle {
   font-size: 1.5rem;
 }
 
-.MeetDianeText{
+.meetdianetext{
   max-width: 100%;
 }
-/*Testimonials*/
+/*testimonials*/
 
-.AskOurFriendsTitle {
+.askourfriendstitle {
   font-size: 1.5rem;
 }
 
-.Friend1Img{
+.friend1img{
   max-width: 50%;
 }
-.Friend2Img{
+.friend2img{
   max-width: 50%;
 }
-.Friend3Img{
+.friend3img{
   max-width: 50%;
 }
-.Friend4Img{
+.friend4img{
   max-width: 50%;
 }
 
-/*Social Media*/
+/*social media*/
 
-.SMTitle {
+.smtitle {
   font-size: 1.5rem;
 }
-/*Footer*/
+/*footer*/
 
 }
 
@@ -408,24 +408,24 @@ header {
     line-height: 1.4;
   }
 
-/* Header and Navigation*/
+/* header and navigation*/
 
-.GDDTitle {
+.gddtitle {
   font-size: 2.5rem;
 }
 
-.NavLink {
+.navlink {
   font-size: 1rem;
   height: 3em;
 }
-/*Introduction*/
-/*Locations*/
+/*introduction*/
+/*locations*/
 
-.Location1 {
+.location1 {
   position: relative;
 }
 
-.Location1Text {
+.location1text {
   position: absolute;
   bottom: 1.5em;
   right: 1.5em;
@@ -436,11 +436,11 @@ header {
   margin: 0 .5em 0 0;
 }
 
-.Location2 {
+.location2 {
   position: relative;
 }
 
-.Location2Text {
+.location2text {
   position: absolute;
   bottom: 1.5em;
   right: 1.5em;
@@ -450,40 +450,40 @@ header {
   padding: .5em;
   margin: 0 .5em 0 0;
 }
-/*Treats*/
-/*Meet Diane*/
+/*treats*/
+/*meet diane*/
 
-.MeetDianePhoto {
+.meetdianephoto {
   position: relative;
 }
-.GmaDianeImg {
+.gmadianeimg {
   display: inline-block;
   max-width: 49%;
 }
 
-.MeetDianeText {
+.meetdianetext {
   display: inline-block;
   max-width: 49%;
   position: absolute;
   padding: .5em;
   font-size: 1.2rem;
 }
-/*Testimonials*/
+/*testimonials*/
 
-.Testimonials {
+.testimonials {
   font-size: 1.2rem;
 }
 
-.FriendText {
+.friendtext {
   font-size: 1rem;
 }
-/*Social Media*/
+/*social media*/
 
-.SM, .SM1, .SM2, .SM3, .SM4, .SM5 {
+.sm, .sm1, .sm2, .sm3, .sm4, .sm5 {
   height: 6em;
 }
 
-/*Footer*/
+/*footer*/
 
 }
 
@@ -494,69 +494,69 @@ header {
     line-height: 1.5;
   }
 
-/* Header and Navigation*/
-.GDDTitle {
+/* header and navigation*/
+.gddtitle {
  font-size: 3.5em;
 }
 
-/*Introduction*/
-.WelcomeHomeTitle {
+/*introduction*/
+.welcomehometitle {
   padding: .5em 0 .5em 0;
 }
 
-.WelcomeHome {
+.welcomehome {
   padding: .25em .25em .5em .25em;
 }
-/*Locations*/
+/*locations*/
 
-.LocationCards {
+.locationcards {
   max-width: 49%;
   float: left;
   overflow: hidden;
   margin: 2.5em 0 1em 0;
 }
 
-.Location1Image {
+.location1image {
   max-width: 100%;
 }
 
-.Location2Image {
+.location2image {
   max-width: 100%;
 }
 
-.LocationTitle {
+.locationtitle {
   padding-bottom: 0;
 }
-/*Treats*/
-.TreatsTitle {
+/*treats*/
+.treatstitle {
   padding-bottom: .5em;
   border-bottom: 1px solid #c9c9c9;
 }
 
-.TreatsImages {
+.treatsimages {
   margin: 1em;
 }
 
-.TreatsCards {
+.treatscards {
   max-width: 29%;
 }
-/*Meet Diane*/
+/*meet diane*/
 
-.GmaDianeImg {
+.gmadianeimg {
  max-width: 35%;
 }
 
-.MeetDianeText {
+.meetdianetext {
   max-width: 64%;
 }
-/*Testimonials*/
+/*testimonials*/
 
-.Friend1, .Friend2, .Friend3, .Friend4 {
+.friend1, .friend2, .friend3, .friend4 {
   max-width: 24%;
 }
-/*Social Media*/
+/*social media*/
 
-/*Footer*/
+/*footer*/
 
 }
 
@@ -566,13 +566,13 @@ header {
     font-size: 130%;
   }
 
-/* Header and Navigation*/
-/*Introduction*/
-/*Locations*/
-/*Treats*/
-/*Meet Diane*/
-/*Testimonials*/
-/*Social Media*/
-/*Footer*/
+/* header and navigation*/
+/*introduction*/
+/*locations*/
+/*treats*/
+/*meet diane*/
+/*testimonials*/
+/*social media*/
+/*footer*/
 
 }
